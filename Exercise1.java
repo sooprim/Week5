@@ -1,7 +1,7 @@
 package week5;
 
 public class Exercise1{
-	public static void main(String[] ars) {
+		public static void main(String[] ars) {
 		String s = "Computer";
 		int length = s.length();
 		
@@ -28,7 +28,7 @@ public class Exercise1{
 		else{
 			System.out.println("Ends with 'ion': false");
 		}
-		
+			System.out.println("Replace 'i' with 'o': " + s.replace("i","o"));
 		//professor scrolled before i could finish :)
 	}
 }
